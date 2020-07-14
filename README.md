@@ -18,7 +18,7 @@ v0.0.1
 ## Развертывание
 
 - Установить [Node.JS](https://nodejs.org/en/)
-- Скопировать себе ребозиторий: `git clone https://github.com/artemzxc13/sprint-11.git`
+- Скопировать себе ребозиторий: `git clone https://github.com/artemzxc13/sprint11.git`
 - Установить зависимости `npm install`
 
 ## Запуск

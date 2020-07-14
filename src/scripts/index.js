@@ -15,7 +15,7 @@ import "../pages/index.css";
 (function() {
   
   const api = new API({
-    baseURL: 'https://praktikum.tk/cohort11',
+    baseURL: 'http://praktikum.tk/cohort11',
     headers: {
       authorization: '79c5fb89-adf3-490a-a84d-3cee899cb226',
       'Content-Type': 'application/json',

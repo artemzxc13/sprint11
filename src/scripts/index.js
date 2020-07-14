@@ -7,6 +7,8 @@ import Popup from './Popup';
 import UserInfo from './UserInfo';
 import "../pages/index.css";
 
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11' : 'https://praktikum.tk/cohort11';
+
 
 
 
@@ -15,7 +17,7 @@ import "../pages/index.css";
 (function() {
   
   const api = new API({
-    baseURL: 'http://praktikum.tk/cohort11',
+    baseURL: serverUrl,
     headers: {
       authorization: '79c5fb89-adf3-490a-a84d-3cee899cb226',
       'Content-Type': 'application/json',

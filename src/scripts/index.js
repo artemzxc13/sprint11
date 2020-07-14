@@ -6,9 +6,7 @@ import ValidityForm from './ValidityForm';
 import Popup from './Popup';
 import UserInfo from './UserInfo';
 import "../pages/index.css";
-
 const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11' : 'https://praktikum.tk/cohort11';
-
 
 
 
